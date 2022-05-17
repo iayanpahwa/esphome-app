@@ -1,6 +1,7 @@
 name: ESPHome app
 description: >-
   ESPHome on balena
+joinable: false
 post-provisioning: >-  
 version: 
 type: sw.application
