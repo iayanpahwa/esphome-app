@@ -1,6 +1,6 @@
 # esphome-app
-ESPhome project on balena
----------
+
+ESPHome project on balena
 ## Usage 
 
 - To use standalone clone this repo and use [balena push](https://www.balena.io/docs/learn/deploy/deployment/#balena-push)
@@ -27,4 +27,4 @@ services:
 ---------
 ## Attribution
 
-* [ESPhome](http://esphome.io)
+* [ESPHome](http://esphome.io)
