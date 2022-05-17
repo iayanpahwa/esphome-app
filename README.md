@@ -11,7 +11,7 @@ ESPHome project on balena
 version: '2.1'
 
 volumes:
-    data:
+    config:
 services:
   esphome:
     container_name: esphome
@@ -19,7 +19,7 @@ services:
     ports:
       - '6052:6052'
     volumes:
-      - 'data:/config'
+      - 'config:/config'
     restart: unless-stopped
     privileged: true
     network_mode: host
