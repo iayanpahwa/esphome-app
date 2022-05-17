@@ -1,0 +1,17 @@
+version: '2.1'
+
+volumes:
+    config:
+services:
+  esphome:
+    container_name: esphome
+    image: esphome/esphome
+    ports:
+      - '6052:6052'
+    volumes:
+      - 'config:/config'
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+ 
+

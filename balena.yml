@@ -1,0 +1,23 @@
+name: ESPHome app
+description: >-
+  ESPHome on balena
+post-provisioning: >-  
+version: 
+type: sw.application
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: 'https://github.com/iayanpahwa/esphome-app'
+  logo:
+    type: blob.asset
+    data:
+      url: 'https://raw.githubusercontent.com/iayanpahwa/esphome-app/master/assets/logo.png'
+data:
+  defaultDeviceType: raspberrypi3
+  supportedDeviceTypes:
+    - raspberrypi4-64
+    - fincm3
+    - raspberrypi3
+    - raspberrypi3-64
+    - raspberrypi400-64
