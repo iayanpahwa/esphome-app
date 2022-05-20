@@ -5,6 +5,11 @@ ESPHome project on balena
 
 - To use standalone clone this repo and use [balena push](https://www.balena.io/docs/learn/deploy/deployment/#balena-push)
 
+- Deploy directly from here 👇🏻
+
+[![deploy button](https://balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/iayanpahwa/esphome-app)
+
+
 - To use in a multi-container app, add following in your docker-compose file
 
 ```
