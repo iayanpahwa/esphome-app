@@ -46,6 +46,7 @@ services:
 ## Usage 
 
 Once the app is deployed, head over to the URL of your device port number ```<Device_IP>:6052``` 6052 is default port of ESPHome
+
 ---------
 ## Attribution
 
