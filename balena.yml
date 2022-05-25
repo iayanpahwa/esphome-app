@@ -1,8 +1,21 @@
 name: ESPHome app
 description: >-
-  ESPHome on balena
+  ESPHome on balena.
+  ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems like [Home Assistant](https://www.home-assistant.io/)
 joinable: false
-post-provisioning: >-  
+post-provisioning: >- 
+  ## Usage instructions
+
+  **Application download**
+
+  Once you power up your device you'll need to allow some time for it to
+  download the application, this typically takes 3-5 minutes but it can take
+  more depending on your internet connection and what device you are using.
+
+  **Usage**
+
+  After the download is completed head to <Your_Device_IP_Address>:6052 to use ESPHome
+  ```6052``` is the default port on which ESPHome works
 version: 
 type: sw.application
 assets:

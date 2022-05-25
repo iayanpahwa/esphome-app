@@ -5,7 +5,8 @@ ESPHome project on balena
 
 ## Introduction
 
-ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems like [Home Assistant](https://www.home-assistant.io/) .
+
 --------------------
 ## Hardware required
 
