@@ -1,7 +1,20 @@
-# esphome-app
-
 ESPHome project on balena
-## Usage 
+
+![](https://raw.githubusercontent.com/iayanpahwa/esphome-app/master/assets/logo.png)
+--------------------
+
+## Introduction
+
+ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+--------------------
+## Hardware required
+
+- A Single board computer like Raspberry Pi 4 -- currently tested to work
+- SD card ex 16GB Micro-SD Card depending upon the board type
+- Power supply for the board
+
+--------------------
+## Deploy 
 
 - To use standalone clone this repo and use [balena push](https://www.balena.io/docs/learn/deploy/deployment/#balena-push)
 
@@ -29,6 +42,10 @@ services:
     privileged: true
     network_mode: host
  ``` 
+---------
+## Usage 
+
+Once the app is deployed, head over to the URL of your device port number ```<Device_IP>:6052``` 6052 is default port of ESPHome
 ---------
 ## Attribution
 
